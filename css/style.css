@@ -415,10 +415,9 @@ body {
 }
 
 .mainCategories__header {
-  margin: 199px 0 0 0;
   background: url("https://backend.akfagroup.uz:8443/akfagroup-api-build/rest/resource/section/c040842d-ae65-4979-8ed2-7e1e10d3f014_header.png") no-repeat 50% 50%;
   background-size: cover;
-  padding: 90px 0 50px 0;
+  padding: 260px 0 80px 0;
 }
 
 .mainCategories__header-inner {
