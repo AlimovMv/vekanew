@@ -266,7 +266,8 @@ body {
 }
 
 .productsCategories {
-  margin: 50px 0;
+  padding: 40px 0;
+  background: #ebebeb;
 }
 
 .productsCategories__row {
@@ -376,6 +377,10 @@ body {
 
 .partners__item {
   max-width: 70%;
+}
+
+.categoriesMenu {
+  margin: 40px 0;
 }
 
 .categoriesMenu__title {
@@ -517,6 +522,11 @@ body {
           transform: scale(1.1);
 }
 
+.products .card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .products__btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -644,8 +654,101 @@ body {
   color: #b30000;
 }
 
+.cardsTop__header {
+  background: url("/img/whiteopacity50bg.png"), url("/img/card-bg2.jpg") 50%/cover no-repeat;
+  padding: 260px 0 80px 0;
+}
+
+.cardsTop__header-inner {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardsTop__header-inner h2 {
+  font-size: 55px;
+  line-height: 60px;
+}
+
+.cardsTop__header-inner h4 {
+  width: 70%;
+  margin: 2.415vw 0 0 0;
+  font-weight: 500;
+}
+
+.products_info {
+  padding: 40px 0;
+}
+
+.products_info .card {
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.products_info .card .card-img {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+.products_info .card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.products_info .card-item {
+  padding: 30px 100px 0 0;
+}
+
+.products_info__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0 0 0;
+}
+
+.products_info__btn .nav-btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #b30000;
+  border: 2px solid #b30000;
+  border-radius: 0;
+  font-size: 17px;
+  height: 56px;
+  padding: 0 22px;
+  font-weight: 700;
+  margin-left: 5px;
+  position: relative;
+}
+
+.products_info__btn .nav-btn:hover {
+  background-color: #b30000;
+  color: #fff;
+}
+
 .footer {
-  background-color: #ffffff;
+  background-color: #ebebeb;
   color: #990100;
   font-size: 14px;
 }
