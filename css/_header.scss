@@ -120,6 +120,7 @@
             color: #b30000;
         }
         &-btn {
+            
             transition: .3s;
             color: #b30000;
             border: 2px solid #b30000;
@@ -147,6 +148,11 @@
                     background: url("/img/login-icon-white.svg") no-repeat 10px 50%, #b30000;
                     background-size: 45px;
                 }
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
             }
         }
     }
