@@ -669,6 +669,49 @@ body {
     filter: blur(100%);
 }
 
+//Конец страницы О компании
+
+//Страница Отзывов
+
+.freePlace {
+    height: 200px;
+}
+
+.commentsList{
+    padding: 40px 0;;
+
+    background: #ebebeb;
+    &__title{
+        color: #b30000;
+        margin: 0 0 40px 0;
+    }
+
+    &__usersPhoto {
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+    }
+
+    .media{
+        color: #fff;
+        background: #495057;
+        padding: 30px;
+    }
+
+    .media-userinfo{
+        font-size: 14px;
+        padding: 0 0 10px 0;
+    }
+
+    .media-site{
+        background: #ebebeb;
+        color: #000;
+    }
+
+    h5{
+        font-size: 20px;
+    }
+}
 @import "_footer";
 
 @import "_header&footer-mediaQuery";

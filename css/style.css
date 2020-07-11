@@ -1031,6 +1031,47 @@ body {
           filter: blur(100%);
 }
 
+.freePlace {
+  height: 200px;
+}
+
+.commentsList {
+  padding: 40px 0;
+  background: #ebebeb;
+}
+
+.commentsList__title {
+  color: #b30000;
+  margin: 0 0 40px 0;
+}
+
+.commentsList__usersPhoto {
+  height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.commentsList .media {
+  color: #fff;
+  background: #495057;
+  padding: 30px;
+}
+
+.commentsList .media-userinfo {
+  font-size: 14px;
+  padding: 0 0 10px 0;
+}
+
+.commentsList .media-site {
+  background: #ebebeb;
+  color: #000;
+}
+
+.commentsList h5 {
+  font-size: 20px;
+}
+
 .footer {
   background-color: #ebebeb;
   color: #990100;
