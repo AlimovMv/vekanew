@@ -578,16 +578,19 @@ body {
           box-shadow: none;
 }
 
-.advertising {
+.advertising,
+.aboutJob {
   padding: 50px 0;
 }
 
-.advertising__title {
+.advertising__title,
+.aboutJob__title {
   margin: 0 0 40px 0;
   color: #b30000;
 }
 
-.advertising .card {
+.advertising .card,
+.aboutJob .card {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -595,36 +598,42 @@ body {
   border: none;
 }
 
-.advertising .card-text {
+.advertising .card-text,
+.aboutJob .card-text {
   font-size: 14px;
   font-family: "PT Sans", Arial, sans-serif;
 }
 
-.advertising .card-body {
+.advertising .card-body,
+.aboutJob .card-body {
   padding: 20px 0;
 }
 
-.advertising .card-img-top {
+.advertising .card-img-top,
+.aboutJob .card-img-top {
   width: 110px;
   border-radius: 50%;
   background: #ebebeb;
 }
 
 .leaveRequest,
-.warranty {
+.warranty,
+.sendresume {
   padding: 100px 0;
   background: url("/img/leaveRequst-bg.jpg") no-repeat 50% 20%;
   background-size: cover;
 }
 
 .leaveRequest .card,
-.warranty .card {
+.warranty .card,
+.sendresume .card {
   border: none;
   border-radius: 0;
 }
 
 .leaveRequest .card-title,
-.warranty .card-title {
+.warranty .card-title,
+.sendresume .card-title {
   font-size: 35px;
   font-weight: 400;
   color: #b30000;
@@ -632,20 +641,23 @@ body {
 }
 
 .leaveRequest .card-text,
-.warranty .card-text {
+.warranty .card-text,
+.sendresume .card-text {
   font-size: 19px;
   line-height: 28px;
   margin: 0 0 30px 0;
 }
 
 .leaveRequest .form-control,
-.warranty .form-control {
+.warranty .form-control,
+.sendresume .form-control {
   border-radius: 0;
   padding: 20px 15px;
 }
 
 .leaveRequest__btn,
-.warranty__btn {
+.warranty__btn,
+.sendresume__btn {
   -ms-flex-item-align: center;
       align-self: center;
   display: -webkit-box;
@@ -661,7 +673,8 @@ body {
 }
 
 .leaveRequest__btn .nav-btn,
-.warranty__btn .nav-btn {
+.warranty__btn .nav-btn,
+.sendresume__btn .nav-btn {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #b30000;
@@ -676,13 +689,15 @@ body {
 }
 
 .leaveRequest__btn .nav-btn:hover,
-.warranty__btn .nav-btn:hover {
+.warranty__btn .nav-btn:hover,
+.sendresume__btn .nav-btn:hover {
   background: #fff;
   color: #b30000;
 }
 
 .leaveRequest__btn .nav-btn:focus,
-.warranty__btn .nav-btn:focus {
+.warranty__btn .nav-btn:focus,
+.sendresume__btn .nav-btn:focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1216,6 +1231,24 @@ body {
   .loginForm .cancelbtn {
     width: 100%;
   }
+}
+
+.sendresume {
+  background: url("/img/leaveRequst-bg2.jpg") no-repeat 50% 20%;
+}
+
+.sendresume .card-text {
+  margin: 0 0 1rem 0;
+}
+
+.sendresume .nav-btn {
+  padding: 12px 55px;
+}
+
+.about_info .card-title {
+  color: #b30000;
+  font-size: 2rem;
+  padding: 0;
 }
 
 .footer {
