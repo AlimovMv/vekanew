@@ -322,7 +322,8 @@ body {
 
 .leaveRequest,
 .warranty,
-.sendresume {
+.sendresume,
+.partnership {
     //margin: 100px 0 0 0;
     padding: 100px 0;
     background: url("/img/leaveRequst-bg.jpg") no-repeat 50% 20%;
@@ -863,6 +864,11 @@ body {
         font-size: 2rem;
         padding: 0;
     }
+
+    .card-text-top{
+        font-size: 18px;
+        font-weight: 700;
+    }
 }
 
 //.aboutJob {
@@ -875,6 +881,16 @@ body {
     //}
 //}
 
+.partnership {
+    background: url("/img/partnership-gb.jpg") no-repeat 50% 20%;
+    .card-text{
+        margin: 0 0 1rem 0;
+    }
+    .nav-btn{
+        padding: 12px 55px;
+    }
+    
+}
 @import "_footer";
 
 @import "_header&footer-mediaQuery";

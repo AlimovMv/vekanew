@@ -618,7 +618,8 @@ body {
 
 .leaveRequest,
 .warranty,
-.sendresume {
+.sendresume,
+.partnership {
   padding: 100px 0;
   background: url("/img/leaveRequst-bg.jpg") no-repeat 50% 20%;
   background-size: cover;
@@ -626,14 +627,16 @@ body {
 
 .leaveRequest .card,
 .warranty .card,
-.sendresume .card {
+.sendresume .card,
+.partnership .card {
   border: none;
   border-radius: 0;
 }
 
 .leaveRequest .card-title,
 .warranty .card-title,
-.sendresume .card-title {
+.sendresume .card-title,
+.partnership .card-title {
   font-size: 35px;
   font-weight: 400;
   color: #b30000;
@@ -642,7 +645,8 @@ body {
 
 .leaveRequest .card-text,
 .warranty .card-text,
-.sendresume .card-text {
+.sendresume .card-text,
+.partnership .card-text {
   font-size: 19px;
   line-height: 28px;
   margin: 0 0 30px 0;
@@ -650,14 +654,16 @@ body {
 
 .leaveRequest .form-control,
 .warranty .form-control,
-.sendresume .form-control {
+.sendresume .form-control,
+.partnership .form-control {
   border-radius: 0;
   padding: 20px 15px;
 }
 
 .leaveRequest__btn,
 .warranty__btn,
-.sendresume__btn {
+.sendresume__btn,
+.partnership__btn {
   -ms-flex-item-align: center;
       align-self: center;
   display: -webkit-box;
@@ -674,7 +680,8 @@ body {
 
 .leaveRequest__btn .nav-btn,
 .warranty__btn .nav-btn,
-.sendresume__btn .nav-btn {
+.sendresume__btn .nav-btn,
+.partnership__btn .nav-btn {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #b30000;
@@ -690,14 +697,16 @@ body {
 
 .leaveRequest__btn .nav-btn:hover,
 .warranty__btn .nav-btn:hover,
-.sendresume__btn .nav-btn:hover {
+.sendresume__btn .nav-btn:hover,
+.partnership__btn .nav-btn:hover {
   background: #fff;
   color: #b30000;
 }
 
 .leaveRequest__btn .nav-btn:focus,
 .warranty__btn .nav-btn:focus,
-.sendresume__btn .nav-btn:focus {
+.sendresume__btn .nav-btn:focus,
+.partnership__btn .nav-btn:focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1249,6 +1258,23 @@ body {
   color: #b30000;
   font-size: 2rem;
   padding: 0;
+}
+
+.about_info .card-text-top {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.partnership {
+  background: url("/img/partnership-gb.jpg") no-repeat 50% 20%;
+}
+
+.partnership .card-text {
+  margin: 0 0 1rem 0;
+}
+
+.partnership .nav-btn {
+  padding: 12px 55px;
 }
 
 .footer {
