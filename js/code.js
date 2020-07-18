@@ -36,4 +36,9 @@ $(document).ready(function () {
         
         scrollPrev = scrolled;
     });
+
+    $('.navbar-toggler').click(function (event) {
+        $('.navbar-toggler-icon').toggleClass('active');
+        $('.subheader').toggleClass('open');
+    });
 });

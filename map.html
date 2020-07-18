@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>akfagroup.kg</title>
 
-
     <script src="/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="/js/code.js"></script>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap">
 
 </head>
 
@@ -35,7 +35,8 @@
                         <a class="navbar-item location" href="#"><img src="/img/location.png" alt="">Ош</a>
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Покупателям окон <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html">Покупателям окон <span
+                                        class="sr-only">(current)</span></a>
                             </li>
                             <!--<li class="nav-item">
                                 <a class="nav-link" href="#">Партнёрам</a>
@@ -73,7 +74,7 @@
 
         <div class="header">
             <div class="container">
-                <nav class="navbar navbar-expand-md">
+                <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand d-flex" href="index.html"><img class="navbar-brand-logo"
                             src="/img/akfa_logo-kg.svg" alt="">
                         <div class="navbar-brand-text">
@@ -88,6 +89,11 @@
                     <form class="form-inline ml-auto">
                         <a class="btn my-2 my-sm-0 nav-btn">Заказать звонок</a>
                         <a class="btn my-2 my-sm-0 nav-btn nav-btn-login" href="authorization.html">Личный кабинет</a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </form>
                 </nav>
             </div>
@@ -128,7 +134,14 @@
             </h2>
 
             <div class="TwoGisMap">
-                <a class="dg-widget-link" href="http://2gis.kg/osh/profiles/70000001031599608,70000001031385282/center/72.83326148986818,40.51236357938407/zoom/12?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Оша</a><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":1080,"height":600,"borderColor":"#fff","pos":{"lat":40.51236357938407,"lon":72.83326148986818,"zoom":12},"opt":{"city":"osh"},"org":[{"id":"70000001031599608"},{"id":"70000001031385282"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                <a class="dg-widget-link"
+                    href="http://2gis.kg/osh/profiles/70000001031599608,70000001031385282/center/72.83326148986818,40.51236357938407/zoom/12?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+                    на карте Оша</a>
+                <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+                <script
+                    charset="utf-8">new DGWidgetLoader({ "width": 1080, "height": 600, "borderColor": "#fff", "pos": { "lat": 40.51236357938407, "lon": 72.83326148986818, "zoom": 12 }, "opt": { "city": "osh" }, "org": [{ "id": "70000001031599608" }, { "id": "70000001031385282" }] });</script>
+                <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript.
+                    Включите его в настройках вашего браузера.</noscript>
             </div>
         </div>
     </div>
@@ -141,9 +154,18 @@
 
                     <div class="card-content">
                         <div class="card-item">
-                            <p class="card-text">Компания VEKA Rus — производитель металлопластикового профиля для окон, балконного остекления, входных и межкомнатных дверей. Мы предлагаем современные решения для комфорта и практичные идеи для ремонта любых помещений.</p>
-                            <p class="card-text">Если вы не знаете, где заказывать окна в Москве — ознакомьтесь со списком наших партнеров в Вашем городе и вызовите мастера на замер. Советы специалистов VEKA, опубликованные в Справочнике покупателя, помогут Вам решить, какие окна поставить.</p>
-                            <p class="card-text">Мы будем рады, если Вы ознакомитесь с информацией по производству пластиковых окон и советами по выбору типа профиля на нашем сайте. Наши материалы помогут Вам понять, что разница, где заказать окно, действительно есть, и от Вашего выбора зависит Ваш комфорт в будущем. Если ставить новые окна, – то с партнерами VEKА!</p>
+                            <p class="card-text">Компания VEKA Rus — производитель металлопластикового профиля для окон,
+                                балконного остекления, входных и межкомнатных дверей. Мы предлагаем современные решения
+                                для комфорта и практичные идеи для ремонта любых помещений.</p>
+                            <p class="card-text">Если вы не знаете, где заказывать окна в Москве — ознакомьтесь со
+                                списком наших партнеров в Вашем городе и вызовите мастера на замер. Советы специалистов
+                                VEKA, опубликованные в Справочнике покупателя, помогут Вам решить, какие окна поставить.
+                            </p>
+                            <p class="card-text">Мы будем рады, если Вы ознакомитесь с информацией по производству
+                                пластиковых окон и советами по выбору типа профиля на нашем сайте. Наши материалы
+                                помогут Вам понять, что разница, где заказать окно, действительно есть, и от Вашего
+                                выбора зависит Ваш комфорт в будущем. Если ставить новые окна, – то с партнерами VEKА!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -155,29 +177,31 @@
         <div class="container">
             <div class="card col-lg-4">
                 <div class="card-body">
-                  <h2 class="card-title">Поможем вам
-                    с выбором!</h2>
-                  <p class="card-text">Мы с удовольствием ответим на ваши вопросы и поможем выбрать правильное решение!</p>
-                  <form>
-                    <div class="form-group row">
-                      <div class="col-lg-12">
-                        <input type="text" class="form-control" placeholder="Ваше имя" id="inputEmail3">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <div class="col-lg-12">
-                        <input type="tel" class="form-control" placeholder="Ваш телефон" id="inputPassword3">
-                      </div>
-                    </div>
+                    <h2 class="card-title">Поможем вам
+                        с выбором!</h2>
+                    <p class="card-text">Мы с удовольствием ответим на ваши вопросы и поможем выбрать правильное
+                        решение!</p>
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control" placeholder="Ваше имя" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-12">
+                                <input type="tel" class="form-control" placeholder="Ваш телефон" id="inputPassword3">
+                            </div>
+                        </div>
 
-                    <div class="leaveRequest__btn">
-                        <a href="#">
-                            <button class="btn my-2 my-sm-0 nav-btn" type="submit"><span>ОТПРАВИТЬ ЗАЯВКУ</span></button>
-                        </a>
-                    </div>
-                </form>
+                        <div class="leaveRequest__btn">
+                            <a href="#">
+                                <button class="btn my-2 my-sm-0 nav-btn" type="submit"><span>ОТПРАВИТЬ
+                                        ЗАЯВКУ</span></button>
+                            </a>
+                        </div>
+                    </form>
                 </div>
-              </div>
+            </div>
         </div>
     </div>
 
@@ -255,7 +279,7 @@
                     <ul class="footer__nav">
                         <a href="index.html#news" class="footer__item">Новости</a>
                         <a href="index.html#sale" class="footer__item">Акции</a>
-                        <a href="carrier.html" class="footer__item">Карьера</a>                        
+                        <a href="carrier.html" class="footer__item">Карьера</a>
                         <a href="forpartners.html#contacts" class="footer__item">Контакты</a>
                         <a href="about.html" class="footer__item">О компании</a>
                     </ul>
