@@ -767,7 +767,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 0;
 }
 
@@ -1594,19 +1594,22 @@ body {
   }
   .mainCategories__header
 , .forpartners__header
-, .aboutCompany__header {
+, .aboutCompany__header
+, .cardsTop__header {
     padding: 70px 0 30px 0;
     height: 100vh;
   }
   .mainCategories__header-inner
 h2, .forpartners__header-inner
-h2, .aboutCompany__header-inner h2 {
+h2, .aboutCompany__header-inner
+h2, .cardsTop__header-inner h2 {
     font-size: 30px;
     line-height: 35px;
   }
   .mainCategories__header-inner
 h4, .forpartners__header-inner
-h4, .aboutCompany__header-inner h4 {
+h4, .aboutCompany__header-inner
+h4, .cardsTop__header-inner h4 {
     margin: 20px 0 0 0;
     width: 100%;
     font-size: 20px;
