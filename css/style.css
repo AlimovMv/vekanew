@@ -1085,8 +1085,7 @@ body {
 
 .commentsList__usersPhoto,
 .map__content__usersPhoto {
-  height: 150px;
-  width: 130px;
+  height: 240px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1161,6 +1160,11 @@ body {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.commentsList .card-deck,
+.map__content .card-deck {
+  margin: 0 0 20px 0;
 }
 
 .TwoGisMap {
