@@ -43,6 +43,35 @@ body {
             color: #b30000;
         }
     }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 60px 0 0 0;
+        .nav-btn {
+            transition: 0.3s;
+            color: #b30000;
+            border: 2px solid #b30000;
+            border-radius: 0;
+            font-size: 17px;
+            height: 56px;
+            padding: 0 22px;
+            font-weight: 700;
+            margin-left: 5px;
+            position: relative;
+
+            &:hover {
+                background-color: #b30000;
+                color: #fff;
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
 }
 
 .moreDetails {
@@ -151,6 +180,7 @@ body {
             cursor: pointer;
         }
     }
+
 }
 
 //Конец главной страницы
@@ -852,6 +882,25 @@ body {
     }
 }
 
+.intro {
+    background: url("/img/card-bg1.jpg") 50%/cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video {
+    position: relative;
+
+}
+
+.video__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
 //Начало страницы Каръера
 
 .sendresume {
@@ -914,6 +963,7 @@ body {
 
     padding: 20px 0 50px 0;
 }
+
 @import "_footer";
 
 @import "_mediaQuery";
