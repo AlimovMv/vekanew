@@ -17,7 +17,8 @@ body {
     }
 }
 
-.productsCategories {
+.productsCategories,
+.post {
     padding: 40px 0;
     background: #ebebeb;
     &__row {
@@ -963,6 +964,35 @@ body {
 
     padding: 20px 0 50px 0;
 }
+
+.post{
+    background-color: #fff;
+    padding: 0;
+    &__title{
+        line-height: 40px;
+        width: 60%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .card-title{
+        color: #000;
+    }
+
+    .card{
+        border: none;
+    }
+
+    .card-body{
+        margin: 30px 0 0 0;
+    }
+
+    .card-img-top{
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
 
 @import "_footer";
 
