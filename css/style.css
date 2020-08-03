@@ -1785,6 +1785,9 @@ h4, .cardsTop__header-inner h4 {
     width: 30px;
     height: 30px;
   }
+  .post__title {
+    width: 100%;
+  }
 }
 
 @media (max-width: 787px) {
